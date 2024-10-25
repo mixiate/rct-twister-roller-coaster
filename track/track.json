@@ -1,0 +1,36 @@
+{
+    "flags": [
+        "separate_tie",
+        "special_end_offsets"
+    ],
+    "sections": [
+        "zero_g_rolls"
+    ],
+    "z_offset": 7,
+    "length": 0.32,
+    "models": {
+        "track": "track/track.obj",
+        "tie": "track/tie.obj",
+        "mask": "track/mask.obj"
+    },
+    "lights": [
+        { "type": "diffuse", "shadow": true, "direction": [1.0, 0.66666666, -1.0], "strength": 0.8 },
+        { "type": "specular", "shadow": true, "direction": [1.0, 0.6666666, -1.0], "strength": 1.0 },
+
+        { "type": "diffuse", "shadow": false, "direction": [-1.0, 0.5, 0.0], "strength": 0.14 },
+        { "type": "diffuse", "shadow": false, "direction": [1.0, 0.5, 0.0], "strength": 0.08 },
+        { "type": "diffuse", "shadow": false, "direction": [0.0, 0.5, 1.0], "strength": 0.08 },
+        { "type": "diffuse", "shadow": false, "direction": [0.0, 0.5, -1.0], "strength": 0.04 },
+
+        { "type": "diffuse", "shadow": false, "direction": [-1.0, 0.5, -1.0], "strength": 0.08 },
+        { "type": "diffuse", "shadow": false, "direction": [-1.0, 0.5, 1.0], "strength": 0.08 },
+        { "type": "diffuse", "shadow": false, "direction": [1.0, 0.5, -1.0], "strength": 0.04 },
+        { "type": "diffuse", "shadow": false, "direction": [1.0, 0.5, 1.0], "strength": 0.08 },
+
+        { "type": "diffuse", "shadow": false, "direction": [0.0, -1.0, 0.0], "strength": 0.03 }
+    ],
+    "base_directory": "C:/files/rct-twister-roller-coaster/track/",
+    "sprite_directory": "track/bm/",
+    "spritefile_in": "sprites_old.json",
+    "spritefile_out": "sprites.json"
+}
